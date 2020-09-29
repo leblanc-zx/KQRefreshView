@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		065B652705022EF590FE2FED /* Pods_CustomRefreshView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47676AD67ED310443E5CF75 /* Pods_CustomRefreshView.framework */; };
 		C486BE112523050200D423CE /* CustomRefreshView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C486BE072523050200D423CE /* CustomRefreshView.framework */; };
 		C486BE162523050200D423CE /* CustomRefreshViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BE152523050200D423CE /* CustomRefreshViewTests.m */; };
-		C486BE182523050200D423CE /* CustomRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BE0A2523050200D423CE /* CustomRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C486BE262523054800D423CE /* CustomRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BE222523054800D423CE /* CustomRefreshHeader.h */; };
+		C486BE272523054800D423CE /* CustomRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BE232523054800D423CE /* CustomRefreshBackFooter.h */; };
+		C486BE282523054800D423CE /* CustomRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BE242523054800D423CE /* CustomRefreshHeader.m */; };
+		C486BE292523054800D423CE /* CustomRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BE252523054800D423CE /* CustomRefreshBackFooter.m */; };
+		C486BE2C2523056E00D423CE /* CustomRefreshView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C486BE2A2523056E00D423CE /* CustomRefreshView.podspec */; };
+		C486BE2D2523056E00D423CE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C486BE2B2523056E00D423CE /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +29,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		630A49F0D889FA67A95C06EE /* Pods-CustomRefreshView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRefreshView.debug.xcconfig"; path = "Target Support Files/Pods-CustomRefreshView/Pods-CustomRefreshView.debug.xcconfig"; sourceTree = "<group>"; };
+		C47676AD67ED310443E5CF75 /* Pods_CustomRefreshView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomRefreshView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C486BE072523050200D423CE /* CustomRefreshView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomRefreshView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C486BE0A2523050200D423CE /* CustomRefreshView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomRefreshView.h; sourceTree = "<group>"; };
 		C486BE0B2523050200D423CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C486BE102523050200D423CE /* CustomRefreshViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomRefreshViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C486BE152523050200D423CE /* CustomRefreshViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomRefreshViewTests.m; sourceTree = "<group>"; };
 		C486BE172523050200D423CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C486BE222523054800D423CE /* CustomRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRefreshHeader.h; sourceTree = "<group>"; };
+		C486BE232523054800D423CE /* CustomRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRefreshBackFooter.h; sourceTree = "<group>"; };
+		C486BE242523054800D423CE /* CustomRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRefreshHeader.m; sourceTree = "<group>"; };
+		C486BE252523054800D423CE /* CustomRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRefreshBackFooter.m; sourceTree = "<group>"; };
+		C486BE2A2523056E00D423CE /* CustomRefreshView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CustomRefreshView.podspec; sourceTree = "<group>"; };
+		C486BE2B2523056E00D423CE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DBD409EE45CDA4028FA1EBAF /* Pods-CustomRefreshView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRefreshView.release.xcconfig"; path = "Target Support Files/Pods-CustomRefreshView/Pods-CustomRefreshView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				065B652705022EF590FE2FED /* Pods_CustomRefreshView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,12 +65,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29996A0D7428369F7BF09EB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C47676AD67ED310443E5CF75 /* Pods_CustomRefreshView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C486BDFD2523050200D423CE = {
 			isa = PBXGroup;
 			children = (
+				C486BE2A2523056E00D423CE /* CustomRefreshView.podspec */,
+				C486BE2B2523056E00D423CE /* LICENSE */,
 				C486BE092523050200D423CE /* CustomRefreshView */,
 				C486BE142523050200D423CE /* CustomRefreshViewTests */,
 				C486BE082523050200D423CE /* Products */,
+				E821794B9FA15C20C2C693D6 /* Pods */,
+				29996A0D7428369F7BF09EB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +98,7 @@
 		C486BE092523050200D423CE /* CustomRefreshView */ = {
 			isa = PBXGroup;
 			children = (
-				C486BE0A2523050200D423CE /* CustomRefreshView.h */,
+				C486BE212523051F00D423CE /* RefreshView */,
 				C486BE0B2523050200D423CE /* Info.plist */,
 			);
 			path = CustomRefreshView;
@@ -86,6 +113,27 @@
 			path = CustomRefreshViewTests;
 			sourceTree = "<group>";
 		};
+		C486BE212523051F00D423CE /* RefreshView */ = {
+			isa = PBXGroup;
+			children = (
+				C486BE222523054800D423CE /* CustomRefreshHeader.h */,
+				C486BE242523054800D423CE /* CustomRefreshHeader.m */,
+				C486BE232523054800D423CE /* CustomRefreshBackFooter.h */,
+				C486BE252523054800D423CE /* CustomRefreshBackFooter.m */,
+			);
+			path = RefreshView;
+			sourceTree = "<group>";
+		};
+		E821794B9FA15C20C2C693D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				630A49F0D889FA67A95C06EE /* Pods-CustomRefreshView.debug.xcconfig */,
+				DBD409EE45CDA4028FA1EBAF /* Pods-CustomRefreshView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +141,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C486BE182523050200D423CE /* CustomRefreshView.h in Headers */,
+				C486BE262523054800D423CE /* CustomRefreshHeader.h in Headers */,
+				C486BE272523054800D423CE /* CustomRefreshBackFooter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +153,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C486BE1B2523050200D423CE /* Build configuration list for PBXNativeTarget "CustomRefreshView" */;
 			buildPhases = (
+				8B061A76C814A391217340A9 /* [CP] Check Pods Manifest.lock */,
 				C486BE022523050200D423CE /* Headers */,
 				C486BE032523050200D423CE /* Sources */,
 				C486BE042523050200D423CE /* Frameworks */,
@@ -177,6 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C486BE2D2523056E00D423CE /* LICENSE in Resources */,
+				C486BE2C2523056E00D423CE /* CustomRefreshView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +241,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8B061A76C814A391217340A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomRefreshView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C486BE032523050200D423CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C486BE292523054800D423CE /* CustomRefreshBackFooter.m in Sources */,
+				C486BE282523054800D423CE /* CustomRefreshHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +413,7 @@
 		};
 		C486BE1C2523050200D423CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630A49F0D889FA67A95C06EE /* Pods-CustomRefreshView.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -343,6 +423,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CustomRefreshView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -357,6 +438,7 @@
 		};
 		C486BE1D2523050200D423CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBD409EE45CDA4028FA1EBAF /* Pods-CustomRefreshView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -366,6 +448,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = CustomRefreshView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

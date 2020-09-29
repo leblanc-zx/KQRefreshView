@@ -1,0 +1,6 @@
+framework module CustomEmptyView {
+  umbrella header "CustomEmptyView-umbrella.h"
+
+  export *
+  module * { export * }
+}
