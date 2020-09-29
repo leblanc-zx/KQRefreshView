@@ -7,10 +7,8 @@
 //
 
 #import "CustomRefreshHeader.h"
-#import "CustomEmptyView.h"
 
 @interface CustomRefreshHeader ()
-
 
 @end
 
@@ -38,20 +36,10 @@
 
 - (void)beginRefreshing {
     [super beginRefreshing];
-    
-//    UIView *view = self.superview;
-//    if ([view isKindOfClass:[UITableView class]]) {
-//        UITableView *tableView = (UITableView *)view;
-//    }
 }
 
 - (void)endRefreshing {
     [super endRefreshing];
-    UIView *view = self.superview;
-    if ([view isKindOfClass:[UITableView class]]) {
-        UITableView *tableView = (UITableView *)view;
-        [tableView ly_endLoading];
-    }
 }
 
 @end

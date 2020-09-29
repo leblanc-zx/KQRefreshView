@@ -1,25 +1,16 @@
 PODS:
-  - CustomEmptyView (1.0.1):
-    - CustomEmptyView/EmptyView (= 1.0.1)
-    - MJRefresh
-  - CustomEmptyView/EmptyView (1.0.1):
-    - MJRefresh
   - MJRefresh (3.3.1)
 
 DEPENDENCIES:
-  - CustomEmptyView
   - MJRefresh
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - MJRefresh
-  https://github.com/leblanc-zx/ZXSpecs.git:
-    - CustomEmptyView
 
 SPEC CHECKSUMS:
-  CustomEmptyView: 1e5ae557134ad406e244b90ea4537b09641c3969
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
 
-PODFILE CHECKSUM: ff56a20a80c0fe87a467b3302a019eb3a33e006e
+PODFILE CHECKSUM: f35db50bb65a9246aec1862324d9da8ab4da5081
 
 COCOAPODS: 1.9.3

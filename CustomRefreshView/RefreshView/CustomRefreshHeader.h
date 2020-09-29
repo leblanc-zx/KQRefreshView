@@ -10,5 +10,4 @@
 
 @interface CustomRefreshHeader : MJRefreshNormalHeader
 
-
 @end
