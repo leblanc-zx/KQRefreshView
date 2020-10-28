@@ -35,6 +35,10 @@
 }
 
 - (void)beginRefreshing {
+    if ([self.superview isKindOfClass:[UITableView class]]) {
+        UITableView *tableView = (UITableView *)self.superview;
+        [tableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
+    }
     [super beginRefreshing];
 }
 
