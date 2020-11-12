@@ -34,7 +34,21 @@
     [super placeSubviews];
 }
 
+- (void)scrollViewContentOffsetDidChange:(NSDictionary *)change {
+    
+    if (self.state == MJRefreshStatePulling) {// 松开就可以进行刷新的状态
+        self.isDragToRefresh = YES;
+    } else if (self.state == MJRefreshStateRefreshing) {// 刷新中
+        
+    } else {// 其它状态
+        self.isDragToRefresh = NO;
+    }
+    
+    [super scrollViewContentOffsetDidChange:change];
+}
+
 - (void)beginRefreshing {
+    NSLog(@"isDragToRefresh==%@", self.isDragToRefresh == YES ? @"YES" : @"NO");
     if ([self.superview isKindOfClass:[UITableView class]]) {
         UITableView *tableView = (UITableView *)self.superview;
         [tableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];
@@ -43,6 +57,7 @@
 }
 
 - (void)endRefreshing {
+    self.isDragToRefresh = NO;
     [super endRefreshing];
 }
 

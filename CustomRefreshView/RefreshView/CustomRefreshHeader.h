@@ -10,4 +10,6 @@
 
 @interface CustomRefreshHeader : MJRefreshNormalHeader
 
+@property (nonatomic, assign) BOOL isDragToRefresh;
+
 @end
