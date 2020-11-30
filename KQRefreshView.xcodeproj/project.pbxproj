@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		065B652705022EF590FE2FED /* Pods_CustomRefreshView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47676AD67ED310443E5CF75 /* Pods_CustomRefreshView.framework */; };
+		99FD4C54180324DF69809E2F /* Pods_KQRefreshView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0352E324D4B9F6F0271A6B4 /* Pods_KQRefreshView.framework */; };
 		C486BE112523050200D423CE /* KQRefreshView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C486BE072523050200D423CE /* KQRefreshView.framework */; };
 		C486BE162523050200D423CE /* KQRefreshViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BE152523050200D423CE /* KQRefreshViewTests.m */; };
 		C486BE262523054800D423CE /* KQRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BE222523054800D423CE /* KQRefreshHeader.h */; };
@@ -29,8 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		630A49F0D889FA67A95C06EE /* Pods-CustomRefreshView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRefreshView.debug.xcconfig"; path = "Target Support Files/Pods-CustomRefreshView/Pods-CustomRefreshView.debug.xcconfig"; sourceTree = "<group>"; };
-		C47676AD67ED310443E5CF75 /* Pods_CustomRefreshView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomRefreshView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B07454720508AD48786E063 /* Pods-KQRefreshView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KQRefreshView.release.xcconfig"; path = "Target Support Files/Pods-KQRefreshView/Pods-KQRefreshView.release.xcconfig"; sourceTree = "<group>"; };
 		C486BE072523050200D423CE /* KQRefreshView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KQRefreshView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C486BE0B2523050200D423CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C486BE102523050200D423CE /* KQRefreshViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KQRefreshViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,7 +41,8 @@
 		C486BE252523054800D423CE /* KQRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQRefreshBackFooter.m; sourceTree = "<group>"; };
 		C486BE2A2523056E00D423CE /* KQRefreshView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KQRefreshView.podspec; sourceTree = "<group>"; };
 		C486BE2B2523056E00D423CE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		DBD409EE45CDA4028FA1EBAF /* Pods-CustomRefreshView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRefreshView.release.xcconfig"; path = "Target Support Files/Pods-CustomRefreshView/Pods-CustomRefreshView.release.xcconfig"; sourceTree = "<group>"; };
+		E0352E324D4B9F6F0271A6B4 /* Pods_KQRefreshView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KQRefreshView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDAC7FDEB729500846036897 /* Pods-KQRefreshView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KQRefreshView.debug.xcconfig"; path = "Target Support Files/Pods-KQRefreshView/Pods-KQRefreshView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065B652705022EF590FE2FED /* Pods_CustomRefreshView.framework in Frameworks */,
+				99FD4C54180324DF69809E2F /* Pods_KQRefreshView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,7 +68,7 @@
 		29996A0D7428369F7BF09EB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C47676AD67ED310443E5CF75 /* Pods_CustomRefreshView.framework */,
+				E0352E324D4B9F6F0271A6B4 /* Pods_KQRefreshView.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -127,8 +127,8 @@
 		E821794B9FA15C20C2C693D6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				630A49F0D889FA67A95C06EE /* Pods-CustomRefreshView.debug.xcconfig */,
-				DBD409EE45CDA4028FA1EBAF /* Pods-CustomRefreshView.release.xcconfig */,
+				EDAC7FDEB729500846036897 /* Pods-KQRefreshView.debug.xcconfig */,
+				2B07454720508AD48786E063 /* Pods-KQRefreshView.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CustomRefreshView-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-KQRefreshView-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -412,7 +412,7 @@
 		};
 		C486BE1C2523050200D423CE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 630A49F0D889FA67A95C06EE /* Pods-CustomRefreshView.debug.xcconfig */;
+			baseConfigurationReference = EDAC7FDEB729500846036897 /* Pods-KQRefreshView.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -420,7 +420,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CustomRefreshView/Info.plist;
+				INFOPLIST_FILE = KQRefreshView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,7 +428,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KangQiao.CustomRefreshView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kq.refreshView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -437,7 +437,7 @@
 		};
 		C486BE1D2523050200D423CE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBD409EE45CDA4028FA1EBAF /* Pods-CustomRefreshView.release.xcconfig */;
+			baseConfigurationReference = 2B07454720508AD48786E063 /* Pods-KQRefreshView.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -445,7 +445,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = CustomRefreshView/Info.plist;
+				INFOPLIST_FILE = KQRefreshView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,7 +453,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = KangQiao.CustomRefreshView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kq.refreshView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/zhouxiang/Desktop/Git/Git-&#x7ec4;&#x4ef6;/CustomRefreshView/KQRefreshView.xcodeproj">
+      location = "group:KQRefreshView.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
