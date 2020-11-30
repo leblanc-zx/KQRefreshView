@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CustomRefreshView'
-  s.version          = '1.0.3'
+  s.name             = 'KQRefreshView'
+  s.version          = '1.0.4'
   s.summary          = '一个项目中通用的下拉刷新，上拉加载更多'
 
 # This description is used to generate tags and improve search results.
@@ -21,23 +21,23 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/leblanc-zx/CustomRefreshView'
+  s.homepage         = 'https://github.com/leblanc-zx/KQRefreshView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'leblanc-zx' => '351706354@qq.com' }
-  s.source           = { :git => 'https://github.com/leblanc-zx/CustomRefreshView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/leblanc-zx/KQRefreshView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  # s.source_files = 'CustomRefreshView/*.{h,m}' 注：路径是相对于.podspec的路径
+  # s.source_files = 'KQRefreshView/*.{h,m}' 注：路径是相对于.podspec的路径
   # 配置子目录
   s.subspec 'RefreshView' do |refreshview|
-  refreshview.source_files = 'CustomRefreshView/RefreshView/*'
+  refreshview.source_files = 'KQRefreshView/RefreshView/*'
   end
   
   # s.resource_bundles = {
-  #   'CustomRefreshView' => ['CustomRefreshView/Assets/*.png']
+  #   'KQRefreshView' => ['KQRefreshView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
