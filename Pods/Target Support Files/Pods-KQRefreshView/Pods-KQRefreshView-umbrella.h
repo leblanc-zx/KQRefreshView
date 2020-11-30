@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_CustomRefreshViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_CustomRefreshViewVersionString[];
+FOUNDATION_EXPORT double Pods_KQRefreshViewVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_KQRefreshViewVersionString[];
 
