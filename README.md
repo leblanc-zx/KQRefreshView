@@ -4,4 +4,4 @@
 
 二、如何使用
 1.Podfile中增加：source 'https://github.com/leblanc-zx/ZXSpecs.git'
-2.pod 'CustomRefreshView'
+2.pod 'KQRefreshView'

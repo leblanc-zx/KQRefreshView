@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/leblanc-zx/KQRefreshView'
+  s.homepage         = 'https://github.com/leblanc-zx/KQRefresh'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'leblanc-zx' => '351706354@qq.com' }
-  s.source           = { :git => 'https://github.com/leblanc-zx/KQRefreshView.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/leblanc-zx/KQRefresh.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -33,11 +33,11 @@ TODO: Add long description of the pod here.
   # s.source_files = 'KQRefreshView/*.{h,m}' 注：路径是相对于.podspec的路径
   # 配置子目录
   s.subspec 'RefreshView' do |refreshview|
-  refreshview.source_files = 'KQRefreshView/RefreshView/*'
+  refreshview.source_files = 'KQRefresh/RefreshView/*'
   end
   
   # s.resource_bundles = {
-  #   'KQRefreshView' => ['KQRefreshView/Assets/*.png']
+  #   'KQRefresh' => ['KQRefreshView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

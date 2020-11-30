@@ -98,7 +98,7 @@
 		C486BE092523050200D423CE /* KQRefreshView */ = {
 			isa = PBXGroup;
 			children = (
-				C486BE212523051F00D423CE /* RefreshView */,
+				C486BE212523051F00D423CE /* KQRefresh */,
 				C486BE0B2523050200D423CE /* Info.plist */,
 			);
 			path = KQRefreshView;
@@ -113,7 +113,7 @@
 			path = KQRefreshViewTests;
 			sourceTree = "<group>";
 		};
-		C486BE212523051F00D423CE /* RefreshView */ = {
+		C486BE212523051F00D423CE /* KQRefresh */ = {
 			isa = PBXGroup;
 			children = (
 				C486BE222523054800D423CE /* KQRefreshHeader.h */,
@@ -121,7 +121,7 @@
 				C486BE232523054800D423CE /* KQRefreshBackFooter.h */,
 				C486BE252523054800D423CE /* KQRefreshBackFooter.m */,
 			);
-			path = RefreshView;
+			path = KQRefresh;
 			sourceTree = "<group>";
 		};
 		E821794B9FA15C20C2C693D6 /* Pods */ = {
@@ -345,7 +345,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -400,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
