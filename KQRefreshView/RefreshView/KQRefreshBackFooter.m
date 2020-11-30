@@ -1,19 +1,19 @@
 //
-//  CustomRefreshBackFooter.m
+//  KQRefreshBackFooter.m
 //  SharedMJRefresh
 //
 //  Created by 房房信 on 17/1/9.
 //  Copyright © 2017年 Team. All rights reserved.
 //
 
-#import "CustomRefreshBackFooter.h"
+#import "KQRefreshBackFooter.h"
 
-@interface CustomRefreshBackFooter ()
+@interface KQRefreshBackFooter ()
 @property (assign, nonatomic) NSInteger lastRefreshCount;
 @property (assign, nonatomic) CGFloat lastBottomDelta;
 @end
 
-@implementation CustomRefreshBackFooter
+@implementation KQRefreshBackFooter
 
 /*
 // Only override drawRect: if you perform custom drawing.

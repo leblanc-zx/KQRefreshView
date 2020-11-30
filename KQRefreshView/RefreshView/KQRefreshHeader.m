@@ -1,18 +1,18 @@
 //
-//  CustomRefreshHeader.m
+//  KQRefreshHeader.m
 //  SharedMJRefresh
 //
 //  Created by 房房信 on 17/1/5.
 //  Copyright © 2017年 Team. All rights reserved.
 //
 
-#import "CustomRefreshHeader.h"
+#import "KQRefreshHeader.h"
 
-@interface CustomRefreshHeader ()
+@interface KQRefreshHeader ()
 
 @end
 
-@implementation CustomRefreshHeader
+@implementation KQRefreshHeader
 
 /*
 // Only override drawRect: if you perform custom drawing.
@@ -48,7 +48,7 @@
 }
 
 - (void)beginRefreshing {
-    NSLog(@"isDragToRefresh==%@", self.isDragToRefresh == YES ? @"YES" : @"NO");
+    //NSLog(@"isDragToRefresh==%@", self.isDragToRefresh == YES ? @"YES" : @"NO");
     if ([self.superview isKindOfClass:[UITableView class]]) {
         UITableView *tableView = (UITableView *)self.superview;
         [tableView scrollRectToVisible:CGRectMake(0, 0, 1, 1) animated:NO];

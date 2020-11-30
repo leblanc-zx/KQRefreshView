@@ -1,5 +1,5 @@
 //
-//  CustomRefreshBackFooter.h
+//  KQRefreshBackFooter.h
 //  SharedMJRefresh
 //
 //  Created by 房房信 on 17/1/9.
@@ -8,6 +8,6 @@
 
 #import "MJRefreshBackNormalFooter.h"
 
-@interface CustomRefreshBackFooter : MJRefreshBackNormalFooter
+@interface KQRefreshBackFooter : MJRefreshBackNormalFooter
 
 @end

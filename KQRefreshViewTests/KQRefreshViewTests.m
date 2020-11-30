@@ -1,6 +1,6 @@
 //
-//  CustomRefreshViewTests.m
-//  CustomRefreshViewTests
+//  KQRefreshViewTests.m
+//  KQRefreshViewTests
 //
 //  Created by zhouxiang on 2020/9/29.
 //  Copyright © 2020 zhouxiang. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface CustomRefreshViewTests : XCTestCase
+@interface KQRefreshViewTests : XCTestCase
 
 @end
 
-@implementation CustomRefreshViewTests
+@implementation KQRefreshViewTests
 
 - (void)setUp {
     // Put setup code here. This method is called before the invocation of each test method in the class.

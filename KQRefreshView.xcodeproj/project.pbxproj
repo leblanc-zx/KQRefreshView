@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		065B652705022EF590FE2FED /* Pods_CustomRefreshView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C47676AD67ED310443E5CF75 /* Pods_CustomRefreshView.framework */; };
-		C486BE112523050200D423CE /* CustomRefreshView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C486BE072523050200D423CE /* CustomRefreshView.framework */; };
-		C486BE162523050200D423CE /* CustomRefreshViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BE152523050200D423CE /* CustomRefreshViewTests.m */; };
-		C486BE262523054800D423CE /* CustomRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BE222523054800D423CE /* CustomRefreshHeader.h */; };
-		C486BE272523054800D423CE /* CustomRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BE232523054800D423CE /* CustomRefreshBackFooter.h */; };
-		C486BE282523054800D423CE /* CustomRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BE242523054800D423CE /* CustomRefreshHeader.m */; };
-		C486BE292523054800D423CE /* CustomRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BE252523054800D423CE /* CustomRefreshBackFooter.m */; };
-		C486BE2C2523056E00D423CE /* CustomRefreshView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C486BE2A2523056E00D423CE /* CustomRefreshView.podspec */; };
+		C486BE112523050200D423CE /* KQRefreshView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C486BE072523050200D423CE /* KQRefreshView.framework */; };
+		C486BE162523050200D423CE /* KQRefreshViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BE152523050200D423CE /* KQRefreshViewTests.m */; };
+		C486BE262523054800D423CE /* KQRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BE222523054800D423CE /* KQRefreshHeader.h */; };
+		C486BE272523054800D423CE /* KQRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C486BE232523054800D423CE /* KQRefreshBackFooter.h */; };
+		C486BE282523054800D423CE /* KQRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BE242523054800D423CE /* KQRefreshHeader.m */; };
+		C486BE292523054800D423CE /* KQRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C486BE252523054800D423CE /* KQRefreshBackFooter.m */; };
+		C486BE2C2523056E00D423CE /* KQRefreshView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C486BE2A2523056E00D423CE /* KQRefreshView.podspec */; };
 		C486BE2D2523056E00D423CE /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = C486BE2B2523056E00D423CE /* LICENSE */; };
 /* End PBXBuildFile section */
 
@@ -31,16 +31,16 @@
 /* Begin PBXFileReference section */
 		630A49F0D889FA67A95C06EE /* Pods-CustomRefreshView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRefreshView.debug.xcconfig"; path = "Target Support Files/Pods-CustomRefreshView/Pods-CustomRefreshView.debug.xcconfig"; sourceTree = "<group>"; };
 		C47676AD67ED310443E5CF75 /* Pods_CustomRefreshView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomRefreshView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C486BE072523050200D423CE /* CustomRefreshView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CustomRefreshView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C486BE072523050200D423CE /* KQRefreshView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KQRefreshView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C486BE0B2523050200D423CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C486BE102523050200D423CE /* CustomRefreshViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomRefreshViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C486BE152523050200D423CE /* CustomRefreshViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomRefreshViewTests.m; sourceTree = "<group>"; };
+		C486BE102523050200D423CE /* KQRefreshViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KQRefreshViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C486BE152523050200D423CE /* KQRefreshViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KQRefreshViewTests.m; sourceTree = "<group>"; };
 		C486BE172523050200D423CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C486BE222523054800D423CE /* CustomRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRefreshHeader.h; sourceTree = "<group>"; };
-		C486BE232523054800D423CE /* CustomRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRefreshBackFooter.h; sourceTree = "<group>"; };
-		C486BE242523054800D423CE /* CustomRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRefreshHeader.m; sourceTree = "<group>"; };
-		C486BE252523054800D423CE /* CustomRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRefreshBackFooter.m; sourceTree = "<group>"; };
-		C486BE2A2523056E00D423CE /* CustomRefreshView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CustomRefreshView.podspec; sourceTree = "<group>"; };
+		C486BE222523054800D423CE /* KQRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQRefreshHeader.h; sourceTree = "<group>"; };
+		C486BE232523054800D423CE /* KQRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KQRefreshBackFooter.h; sourceTree = "<group>"; };
+		C486BE242523054800D423CE /* KQRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQRefreshHeader.m; sourceTree = "<group>"; };
+		C486BE252523054800D423CE /* KQRefreshBackFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KQRefreshBackFooter.m; sourceTree = "<group>"; };
+		C486BE2A2523056E00D423CE /* KQRefreshView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KQRefreshView.podspec; sourceTree = "<group>"; };
 		C486BE2B2523056E00D423CE /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DBD409EE45CDA4028FA1EBAF /* Pods-CustomRefreshView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomRefreshView.release.xcconfig"; path = "Target Support Files/Pods-CustomRefreshView/Pods-CustomRefreshView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C486BE112523050200D423CE /* CustomRefreshView.framework in Frameworks */,
+				C486BE112523050200D423CE /* KQRefreshView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,10 +76,10 @@
 		C486BDFD2523050200D423CE = {
 			isa = PBXGroup;
 			children = (
-				C486BE2A2523056E00D423CE /* CustomRefreshView.podspec */,
+				C486BE2A2523056E00D423CE /* KQRefreshView.podspec */,
 				C486BE2B2523056E00D423CE /* LICENSE */,
-				C486BE092523050200D423CE /* CustomRefreshView */,
-				C486BE142523050200D423CE /* CustomRefreshViewTests */,
+				C486BE092523050200D423CE /* KQRefreshView */,
+				C486BE142523050200D423CE /* KQRefreshViewTests */,
 				C486BE082523050200D423CE /* Products */,
 				E821794B9FA15C20C2C693D6 /* Pods */,
 				29996A0D7428369F7BF09EB6 /* Frameworks */,
@@ -89,37 +89,37 @@
 		C486BE082523050200D423CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C486BE072523050200D423CE /* CustomRefreshView.framework */,
-				C486BE102523050200D423CE /* CustomRefreshViewTests.xctest */,
+				C486BE072523050200D423CE /* KQRefreshView.framework */,
+				C486BE102523050200D423CE /* KQRefreshViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C486BE092523050200D423CE /* CustomRefreshView */ = {
+		C486BE092523050200D423CE /* KQRefreshView */ = {
 			isa = PBXGroup;
 			children = (
 				C486BE212523051F00D423CE /* RefreshView */,
 				C486BE0B2523050200D423CE /* Info.plist */,
 			);
-			path = CustomRefreshView;
+			path = KQRefreshView;
 			sourceTree = "<group>";
 		};
-		C486BE142523050200D423CE /* CustomRefreshViewTests */ = {
+		C486BE142523050200D423CE /* KQRefreshViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				C486BE152523050200D423CE /* CustomRefreshViewTests.m */,
+				C486BE152523050200D423CE /* KQRefreshViewTests.m */,
 				C486BE172523050200D423CE /* Info.plist */,
 			);
-			path = CustomRefreshViewTests;
+			path = KQRefreshViewTests;
 			sourceTree = "<group>";
 		};
 		C486BE212523051F00D423CE /* RefreshView */ = {
 			isa = PBXGroup;
 			children = (
-				C486BE222523054800D423CE /* CustomRefreshHeader.h */,
-				C486BE242523054800D423CE /* CustomRefreshHeader.m */,
-				C486BE232523054800D423CE /* CustomRefreshBackFooter.h */,
-				C486BE252523054800D423CE /* CustomRefreshBackFooter.m */,
+				C486BE222523054800D423CE /* KQRefreshHeader.h */,
+				C486BE242523054800D423CE /* KQRefreshHeader.m */,
+				C486BE232523054800D423CE /* KQRefreshBackFooter.h */,
+				C486BE252523054800D423CE /* KQRefreshBackFooter.m */,
 			);
 			path = RefreshView;
 			sourceTree = "<group>";
@@ -130,7 +130,6 @@
 				630A49F0D889FA67A95C06EE /* Pods-CustomRefreshView.debug.xcconfig */,
 				DBD409EE45CDA4028FA1EBAF /* Pods-CustomRefreshView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -141,17 +140,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C486BE262523054800D423CE /* CustomRefreshHeader.h in Headers */,
-				C486BE272523054800D423CE /* CustomRefreshBackFooter.h in Headers */,
+				C486BE262523054800D423CE /* KQRefreshHeader.h in Headers */,
+				C486BE272523054800D423CE /* KQRefreshBackFooter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C486BE062523050200D423CE /* CustomRefreshView */ = {
+		C486BE062523050200D423CE /* KQRefreshView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C486BE1B2523050200D423CE /* Build configuration list for PBXNativeTarget "CustomRefreshView" */;
+			buildConfigurationList = C486BE1B2523050200D423CE /* Build configuration list for PBXNativeTarget "KQRefreshView" */;
 			buildPhases = (
 				8B061A76C814A391217340A9 /* [CP] Check Pods Manifest.lock */,
 				C486BE022523050200D423CE /* Headers */,
@@ -163,14 +162,14 @@
 			);
 			dependencies = (
 			);
-			name = CustomRefreshView;
+			name = KQRefreshView;
 			productName = CustomRefreshView;
-			productReference = C486BE072523050200D423CE /* CustomRefreshView.framework */;
+			productReference = C486BE072523050200D423CE /* KQRefreshView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C486BE0F2523050200D423CE /* CustomRefreshViewTests */ = {
+		C486BE0F2523050200D423CE /* KQRefreshViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C486BE1E2523050200D423CE /* Build configuration list for PBXNativeTarget "CustomRefreshViewTests" */;
+			buildConfigurationList = C486BE1E2523050200D423CE /* Build configuration list for PBXNativeTarget "KQRefreshViewTests" */;
 			buildPhases = (
 				C486BE0C2523050200D423CE /* Sources */,
 				C486BE0D2523050200D423CE /* Frameworks */,
@@ -181,9 +180,9 @@
 			dependencies = (
 				C486BE132523050200D423CE /* PBXTargetDependency */,
 			);
-			name = CustomRefreshViewTests;
+			name = KQRefreshViewTests;
 			productName = CustomRefreshViewTests;
-			productReference = C486BE102523050200D423CE /* CustomRefreshViewTests.xctest */;
+			productReference = C486BE102523050200D423CE /* KQRefreshViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +202,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C486BE012523050200D423CE /* Build configuration list for PBXProject "CustomRefreshView" */;
+			buildConfigurationList = C486BE012523050200D423CE /* Build configuration list for PBXProject "KQRefreshView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,8 +215,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C486BE062523050200D423CE /* CustomRefreshView */,
-				C486BE0F2523050200D423CE /* CustomRefreshViewTests */,
+				C486BE062523050200D423CE /* KQRefreshView */,
+				C486BE0F2523050200D423CE /* KQRefreshViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,7 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C486BE2D2523056E00D423CE /* LICENSE in Resources */,
-				C486BE2C2523056E00D423CE /* CustomRefreshView.podspec in Resources */,
+				C486BE2C2523056E00D423CE /* KQRefreshView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C486BE292523054800D423CE /* CustomRefreshBackFooter.m in Sources */,
-				C486BE282523054800D423CE /* CustomRefreshHeader.m in Sources */,
+				C486BE292523054800D423CE /* KQRefreshBackFooter.m in Sources */,
+				C486BE282523054800D423CE /* KQRefreshHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C486BE162523050200D423CE /* CustomRefreshViewTests.m in Sources */,
+				C486BE162523050200D423CE /* KQRefreshViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +288,7 @@
 /* Begin PBXTargetDependency section */
 		C486BE132523050200D423CE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C486BE062523050200D423CE /* CustomRefreshView */;
+			target = C486BE062523050200D423CE /* KQRefreshView */;
 			targetProxy = C486BE122523050200D423CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -498,7 +497,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C486BE012523050200D423CE /* Build configuration list for PBXProject "CustomRefreshView" */ = {
+		C486BE012523050200D423CE /* Build configuration list for PBXProject "KQRefreshView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C486BE192523050200D423CE /* Debug */,
@@ -507,7 +506,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C486BE1B2523050200D423CE /* Build configuration list for PBXNativeTarget "CustomRefreshView" */ = {
+		C486BE1B2523050200D423CE /* Build configuration list for PBXNativeTarget "KQRefreshView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C486BE1C2523050200D423CE /* Debug */,
@@ -516,7 +515,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C486BE1E2523050200D423CE /* Build configuration list for PBXNativeTarget "CustomRefreshViewTests" */ = {
+		C486BE1E2523050200D423CE /* Build configuration list for PBXNativeTarget "KQRefreshViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C486BE1F2523050200D423CE /* Debug */,
